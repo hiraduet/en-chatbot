@@ -14,9 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the entire project into the container
 COPY . .
 
-# Install any additional dependencies if needed
-# (e.g., if you have custom actions with additional dependencies)
-RUN pip install --no-cache-dir -r requirements.txt
 
 # Train the Rasa model during the build process
 RUN rasa train
