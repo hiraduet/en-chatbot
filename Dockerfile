@@ -5,12 +5,6 @@ FROM rasa/rasa:latest
 WORKDIR /app
 
 
-# Copy the requirements file
-COPY requirements.txt .
-
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
-
 # Copy the entire project into the container
 COPY . .
 
