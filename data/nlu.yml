@@ -1,0 +1,258 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: casr_meeting
+  examples: |
+    - casr meeting date
+    - Is there any upcoming casr meeting?
+    - What is the number of next casr?
+    - What is ta last date of casr?
+    - can help me to check the date of casr?
+- intent: acpg_meeting
+  examples: |
+    - acpg meeting
+    - Is there any upcoming acpg meeting?
+    - Available acpg meeting
+    - What is the last date of this acpg?
+- intent: appointment_of_supervisor
+  examples: |
+    - appointment of supervisor
+    - application of supervisor
+    - How can I apply for supervisor?
+    - Am I eligible to applying appointment of supervisor?
+    - Is my cgpa is enough for applying supervisor?
+    - How many credit is needed to complete for applying supervisor?
+    - What are the criteria to applying supervisor?
+    - When I should try to get my thesis supervisor?
+- intent: change_of_supervisor
+  examples: |
+    - change of supervisor
+    - application to change supervisor
+    - How can apply for change my supervisor?
+    - My thesis topic is not relating to the interest fields of my supervisor
+    - My thesis supervisor is on leave vacation
+    - My supervisor is unreachable
+- intent: time_extension
+  examples: |
+    - time extension
+    - extension the time of my studentship
+    - When I can apply for my time extension
+    - How can I apply for time extension?
+    - What are the necessary documents needed to apply for time extension?
+    - What I can do when my studentship is expired?
+- intent: thesis_proposal
+  examples: |
+    - thesis proposal
+    - How can I apply for thesis proposal?
+    - What is the necessary steps to applying for thesis proposal?
+    - What is the status of my thesis proposal application?
+    - Why I cannot submit my thesis proposal?
+- intent: board_of_exam
+  examples: |
+    - board of exam
+    - How can I apply for board of examination?
+    - What are the requirement to apply for board of exam?
+    - I cannot submit my board of exam application
+- intent: post_graduation_eligibility
+  examples: |
+    - post graduation eligibility
+    - what is the criteria to apply for post graduation
+    - requirement for post graduation
+    - which documents are needed for post graduation
+    - am I eligible for post graduation
+    - studentship duration
+- intent: studentship_duration
+  examples: |
+    - studentship duration
+    - graduation time
+    - how much time is needed to complete post graduation
+    - masters degree completion time
+- intent: grading_system
+  examples: |
+    - what is your grading system?
+    - grading style
+    - grading pattern
+    - what is the grading architecture?
+- intent: credit_classification
+  examples: |
+    - how many credit is need to complete?
+    - how many credit is for thesis?
+    - credit classification
+    - maximum credit
+    - theory credit
+- intent: equivalence_policy
+  examples: |
+    - equivalence policy
+    - equivalency
+    - university equivalence
+    - what is the process for equivalency check?
+    - how much time is needed for equivalence
+    - how much does it cost for equivalance
+- intent: scholarship
+  examples: |
+    - scholarship
+    - is there any scholarship available?
+    - what are the scholarship being eligible?
+    - criteria to get scholarship
+    - is there any option to get scholarship
+- intent: research_assistant
+  examples: |
+    - facility for research assistant
+    - how can I apply for research assistantship?
+    - research assistant
+    - is there raship available
+    - ra ship
+- intent: degree_type
+  examples: |
+    - degree type
+    - list of degrees
+    - post graduation degrees
+    - degrees of masters
+- intent: student_id
+  examples: |
+    - I forgot my student id
+    - when I get my student id
+    - can I change student id
+    - student id
+- intent: email_recovery
+  examples: |
+    - email recovery
+    - I forget my email id
+    - I forget my password
+    - how can I retrieve my email and password?
+    - email credential
+- intent: offered_courses
+  examples: |
+    - list of offered courses in this semester
+    - offered course
+    - course list for registration
+    - course information for registration
+- intent: course_registration
+  examples: |
+    - how can I take a course?
+    - how many course I can take
+    - how to register a course?
+    - course registration
+    - registration process
+- intent: registration_fees
+  examples: |
+    - registration fees
+    - how much does it cost for registration?
+    - cost for credit
+    - course registration fees
+    - hall fees
+- intent: payment_procedure
+  examples: |
+    - how can I pay the registration fees
+    - payment procedure
+    - how can I pay the fees
+    - online payment  process
+    - course registration fees pay
+    - hall fees pay
+- intent: course_coordinator_info
+  examples: |
+    - who is the course coordinator
+    - course coordinator
+    - contact number of my coordinator
+    - how can get in touched my coordinator
+    - coordinator
+- intent: head_info
+  examples: |
+    - department head
+    - head sir contact
+    - head sir name
+    - how can I contact with my head sir
+- intent: msc_to_m_engg
+  examples: |
+    - what is the process to migrate to m engineering from masters
+    - msc to m engineering
+    - procesure for m engg from msc
+    - msc to mengg
+- intent: doctoral_committee
+  examples: |
+    - who are the member of my doctoral committee
+    - who is the chairman of my doctoral committee
+    - doctoral committee
+    - member list of doctoral committee
+    - phd doctoral committee

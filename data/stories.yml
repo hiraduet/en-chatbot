@@ -1,0 +1,216 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  
+- story: casr meeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: casr_meeting
+  - action: utter_casr_meeting
+  
+- story: acpg meeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_acpg_meeting
+  - action: utter_ask_department
+  - intent: ask_department
+  - action: utter_acpg_meeting
+  
+- story: appointment of supervisor
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: appointment_of_supervisor
+  - action: utter_ask_student_id
+  - intent: ask_student_id
+  - action: utter_appointment_of_supervisor
+  
+- story: change of supervisor
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_of_supervisor
+  - action: utter_change_of_supervisor
+  
+- story: time extension
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: time_extension
+  - action: utter_time_extension
+  
+- story: thesis proposal
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thesis_proposal
+  - action: utter_thesis_proposal
+  
+- story: board of exam
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: board_of_exam
+  - action: utter_board_of_exam
+
+- story: post graduation eligibility
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: post_graduation_eligibility
+  - action: utter_post_graduation_eligibility
+  
+- story: studentship duration
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: studentship_duration
+  - action: utter_studentship_duration
+  
+- story: grading system
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: grading_system
+  - action: utter_grading_system
+  
+- story: credit classification
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: credit_classification
+  - action: utter_credit_classification
+  
+- story: equivalence policy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: equivalence_policy
+  - action: utter_equivalence_policy
+  
+- story: scholarship
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: scholarship
+  - action: utter_scholarship
+  
+- story: research assistant
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: research_assistant
+  - action: utter_research_assistant
+  
+- story: board
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: board
+  - action: utter_board
+  
+- story: degree type
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: degree_type
+  - action: utter_degree_type
+  
+- story: student id
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: student_id
+  - action: utter_student_id
+  
+- story: email recovery
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: email_recovery
+  - action: utter_email_recovery
+  
+- story: offered courses
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: offered_courses
+  - action: utter_offered_courses
+  
+- story: course registration
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: course_registration
+  - action: utter_course_registration
+  
+- story: registration fees
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: registration_fees
+  - action: utter_registration_fees
+  
+- story: payment procedure
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: payment_procedure
+  - action: utter_payment_procedure
+  
+- story: course coordinator info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: course_coordinator_info
+  - action: utter_course_coordinator_info
+  
+- story: head info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: head_info
+  - action: utter_head_info
+  
+- story: msc to m engg
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: msc_to_m_engg
+  - action: utter_msc_to_m_engg
+    
+- story: doctoral committee
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: doctoral_committee
+  - action: utter_doctoral_committee

@@ -1,0 +1,102 @@
+version: '3.1'
+intents:
+- acpg_meeting
+- affirm
+- appointment_of_supervisor
+- board_of_exam
+- bot_challenge
+- casr_meeting
+- change_of_supervisor
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+- thesis_proposal
+- time_extension
+- board_of_exam
+- post_graduation_eligibility
+- studentship_duration
+- grading_system
+- credit_classification
+- equivalence_policy
+- scholarship
+- research_assistant
+- degree_type
+- student_id
+- email_recovery
+- offered_courses
+- course_registration
+- registration_fees
+- payment_procedure
+- course_coordinator_info
+- head_info
+- msc_to_m_engg
+- doctoral_committee
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_casr_meeting:
+  - text: Did that help you?
+  utter_acpg_meeting:
+  - text: Did that help you?
+  utter_appointment_of_supervisor:
+  - text: Did that help you?
+  utter_change_of_supervisor:
+  - text: Did that help you?
+  utter_time_extension:
+  - text: Did that help you?
+  utter_thesis_proposal:
+  - text: Did that help you?
+  utter_board_of_exam:
+  - text: Did that help you?
+  utter_post_graduation_eligibility:
+  - text: Did that help you?
+  utter_studentship_duration:
+  - text: Did that help you?
+  utter_grading_system:
+  - text: Did that help you?
+  utter_credit_classification:
+  - text: Did that help you?
+  utter_equivalence_policy:
+  - text: Did that help you?
+  utter_scholarship:
+  - text: Did that help you?
+  utter_research_assistant:
+  - text: Did that help you?
+  utter_degree_type:
+  - text: Did that help you?
+  utter_student_id:
+  - text: Did that help you?
+  utter_email_recovery:
+  - text: Did that help you?
+  utter_offered_courses:
+  - text: Did that help you?
+  utter_course_registration:
+  - text: Did that help you?
+  utter_registration_fees:
+  - text: Did that help you?
+  utter_payment_procedure:
+  - text: Did that help you?
+  utter_course_coordinator_info:
+  - text: Did that help you?
+  utter_head_info:
+  - text: Did that help you?
+  utter_msc_to_m_engg:
+  - text: Did that help you?
+  utter_doctoral_committee:
+  - text: Did that help you?
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
